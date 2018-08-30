@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.IO;
 
 namespace ComApTest
 {
@@ -13,7 +14,7 @@ namespace ComApTest
 
 		public override void WriteToFile(string folderName, string fileName)
 		{
-			XmlWriter xmlWriter = XmlWriter.Create(folderName + "\"" + fileName);
+			XmlWriter xmlWriter = XmlWriter.Create(Path.Combine(folderName, fileName));
 
 			xmlWriter.WriteStartDocument();
 			xmlWriter.WriteStartElement("students");

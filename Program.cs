@@ -47,10 +47,10 @@ namespace ComApTest
 						}
 						File f = fileReader.Process();
 						FileWriter fWrite = null;
-						if (tokens[1] == "json")
-							fWrite = new JsonFileWriter(f);
-						else
+						if (tokens.Length <= 1)
 							fWrite = new XmlFileWriter(f);
+						else if(tokens[1] == "json")
+							fWrite = new JsonFileWriter(f);
 
 						string[] tokens1 = filePath.Split('\'');
 						string folderDest = "";
