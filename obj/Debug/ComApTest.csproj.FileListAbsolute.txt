@@ -1,0 +1,7 @@
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\bin\Debug\ComApTest.exe.config
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\bin\Debug\ComApTest.exe
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\bin\Debug\ComApTest.pdb
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\obj\Debug\ComApTest.csprojAssemblyReference.cache
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\obj\Debug\ComApTest.csproj.CoreCompileInputs.cache
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\obj\Debug\ComApTest.exe
+c:\users\lukas smisovsky\source\repos\ComApTest\ComApTest\obj\Debug\ComApTest.pdb
